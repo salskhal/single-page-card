@@ -1,0 +1,97 @@
+.other>div {
+    background: #4abebd;
+}
+
+.other>div:nth-child(odd) {
+    background: #2bb3b1;
+}
+
+body {
+    background: orange;
+    font-size: 16px;
+}
+
+
+.title{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.maint{
+    color: hsl(71, 73%, 54%);
+}
+
+.mainp{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.7;
+    word-spacing: 3px;
+    font-size: 16px;
+}
+
+.tile{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wrapper {
+    /* height: 30vh; */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wow span {
+    font-size: 30px;
+}
+
+
+.btn{
+background-color: #bfdf32;
+}
+
+@media screen and (min-width: 700px) {
+
+
+    .card {
+        display: grid;
+        width: 55%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 22%;
+    }
+
+    /* .wrapper {
+        height: 90vh;
+    } */
+
+    .other {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.why, .sub{
+    color:  #83e3e7;
+}
+
+.dol {
+    color: #f1fefe;
+}
